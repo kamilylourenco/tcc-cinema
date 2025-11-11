@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="comedia.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Gênero Comedia </h1>
+        <p>Saiba mais sobre comedia</p>
+    </header>
+    <section>
+        <h2>O que vamos aprender?</h2>
+        <ul>
+            <li>Ela nasceu do humor físico (slapstick) na era do cinema mudo, onde grandes gênios como Charles Chaplin e Buster Keaton utilizavam quedas, perseguições e expressões exageradas para provocar o riso, já que o som não existia.</li>
+            <li>A comédia no cinema raramente é um gênero puro; ela se manifesta em fusões que se tornaram subgêneros próprios e muito populares </li>
+            <li>o início da comédia cinematográfica pode ser fixado por volta de 1895.
+
+            </li>
+        </ul>
+        <button onclick="mostrarDetalhes()">Ver detalhes do curso</button>
+        <div class="detalhes" id="detalhes">
+            <p>Curso 100% gratuito</p>
+        </div>
+    </section>
+    <script>
+        function mostrarDetalhes() {
+            const detalhes = document.getElementById("detalhes");
+            if (detalhes.style.display === "block") {
+                detalhes.style.display = "none";
+            } else {
+                detalhes.style.display = "block";
+            }
+        }
+    </script>
+
+<section class="recursos">
+    <h2>Recursos Recomendados</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="jumanji.jpg" alt="Comedia de ação">
+            <h3>Comedia de ação</h3>
+            <p>Comédia de ação é um subgénero cinematográfico que combina elementos de humor e sequências de ação intensas, como perseguições, lutas e explosões. O humor pode surgir de situações inesperadas vividas pelos personagens ou de interações entre eles, criando uma narrativa dinâmica que equilibra o suspense da ação com momentos hilariantes. Este género, popularizado nos anos 80, frequentemente aborda histórias de policiais ou de artes marciais </p>
+            <a href= "https://en.m.wikipedia.org/wiki/Action_comedy#Film" >Saiba mais</a>
+        </div>
+        <div class="card">
+            <img src="humornegro.jpg" alt="Humor Negro">
+            <h3>Humor Negro</h3>
+            <p> Humor negro, termo de origem francesa que remete a humor ácido e mórbido, é um gênero de comédia que lida com temas tabus e sensíveis, como morte, sofrimento ou temas considerados ilícitos, com o objetivo de chocar ou provocar reflexão,  absurdo ou do sarcasmo, a algo ruimS. Por essa razão, ativistas e linguistas recomendam o uso de termos alternativos, como "humor ácido," "humor pesado" ou "humor mórbido," para evitar a conotação racista e focar na característica satírica do gênero.  </p>
+            <a href="https://pt.wikipedia.org/wiki/Humor_negro">Saiba mais</a>
+        </div>
+        <div class="card">
+            <img src="satira.jpg" alt="Paródia e Sátira">
+            <h3>Paródia e Sátira</h3>
+            <p> Paródia e sátira são gêneros artísticos que usam o humor, mas com propósitos distintos: a paródia imita o estilo de uma obra existente para criar um novo sentido cômico ou crítico, já a sátira critica um comportamento, uma instituição ou uma ideia, muitas vezes usando o humor, o exagero e a ironia para expor falhas. A paródia é uma forma de intertextualidade que se refere a um texto pré-existente, enquanto a sátira é um gênero original que visa a crítica social ou política. </p>
+            <a href="https://www.google.com/search?q=parodia+e+satira&rlz">Saiba mais</a>
+        </div>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="romance.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Gênero Romance</h1>
+        <p>Saiba mais sobre romance</p>
+    </header>
+    <section>
+        <h2>O que vamos aprender?</h2>
+        <ul>
+            <li>A palavra "romance" vem das línguas românicas (como francês, espanhol e português), que se desenvolveram a partir do latim.</li>
+            <li>Nos séculos XII e XIII, o "romance" era uma narrativa em verso ou prosa, geralmente com histórias de cavalaria, aventuras e amores idealizados (ex: Rei Arthur, Tristão e Isolda).</li>
+            <li>O romance moderno nasce com a burguesia europeia, no contexto do Iluminismo, quando o foco muda para a vida cotidiana, os valores individuais e a racionalidade.</li>
+        </ul>
+        <button onclick="mostrarDetalhes()">Ver detalhes do curso</button>
+        <div class="detalhes" id="detalhes">
+            <p>Curso 100% gratuito</p>
+        </div>
+    </section>
+    <script>
+        function mostrarDetalhes() {
+            const detalhes = document.getElementById("detalhes");
+            if (detalhes.style.display === "block") {
+                detalhes.style.display = "none";
+            } else {
+                detalhes.style.display = "block";
+            }
+        }
+    </script>
+
+<section class="recursos">
+    <h2>Recursos Recomendados</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="dorama.jpg" alt="Doramas">
+            <h3>Doramas</h3>
+            <p>Dorama é um termo japonês derivado de "drama" que se refere a séries e novelas televisivas asiáticas, originárias do Japão. Essas produções são conhecidas por suas tramas envolventes, personagens carismáticos, trilhas sonoras marcantes e, geralmente, contam histórias completas em uma única temporada curta, com começo, meio e fim bem definidos. </p>
+            <a href= "https://pt.wikipedia.org/wiki/Drama_coreano" >Saiba mais</a>
+        </div>
+        <div class="card">
+            <img src="rc.jpg" alt="Comedia romantica">
+            <h3>Comedia romantica</h3>
+            <p>Uma comédia romântica é um género de ficção, geralmente no cinema, que mistura elementos de comédia e romance, focado na jornada de um casal que, após superar obstáculos e situações cómicas, acaba por encontrar o amor e um final feliz. As histórias apresentam um enredo leve, com humor a avançar a narrativa, culminando num desfecho satisfatório para o público. </p>
+            <a href="https://pt.wikipedia.org/wiki/Com%C3%A9dia_rom%C3%A2ntica#:">Saiba mais</a>
+        </div>
+        <div class="card">
+            <img src="diario.jpg" alt="disney">
+            <h3>Drama romance</h3>
+            <p>Um drama romântico em filmes é um género que combina os elementos sérios e emocionais do drama com a história de amor do romance, explorando conflitos, obstáculos e a intensidade dos sentimentos entre os protagonistas. Ao contrário de romances mais leves, estes filmes apresentam desafios reais e dilemas emocionais profundos, focando na paixão, no sofrimento e nas complicações que impedem ou dificultam um amor verdadeiro. </p>
+            <a href="https://pt.wikipedia.org/wiki/Romance_(cinema)#:">Saiba mais</a>
+        </div>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #db0f0f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+}
+
+.container-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    height: 40px;
+   
+}
+
+/* Menu principal */
+.lista-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.lista-menu li {
+    position: relative;
+}
+
+.lista-menu li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    transition: background 0.3s;
+}
+
+.lista-menu li a:hover {
+    background-color: #9b0b0b;
+    border-radius: 4px;
+}
+
+/* Submenu suspenso */
+.lista-menu li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    background-color: #dc1f1f;
+    min-width: 180px;
+}
+
+.lista-menu li ul li a {
+    padding: 10px 15px;
+    gap: 8px;
+}
+
+.lista-menu li:hover ul {
+    display: block;
+}
+
+.lista-menu li ul li a:hover {
+    background-color: #ddcfcf;
+}
+
+/* Ícones à direita */
+.container-direita {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container-direita a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Esconde botão hamburguer (apenas exemplo de responsivo futuro) */
+.menu-botao,
+.menu-icone {
+    display: none;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="terror.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Gênero Terror </h1>
+        <p>Saiba mais sobre Terror</p>
+    </header>
+    <section>
+        <h2>O que vamos aprender?</h2>
+        <ul>
+            <li>As raízes do terror podem ser encontradas nas antigas lendas e mitologias, onde histórias de monstros, bruxas e seres sobrenaturais eram contadas em torno de fogueiras.</li>
+            <li>O terror, como um gênero literário formal, começou a emergir no século XVIII, com o Romantismo Gótico.</li>
+            <li>O terror fez parte do cinema desde seu início, com pioneiros como George Méliès.
+                Le Manoir du Diable (O Castelo do Diabo), de 1896, é considerado um dos primeiros filmes de terror.
+
+            </li>
+        </ul>
+        <button onclick="mostrarDetalhes()">Ver detalhes do curso</button>
+        <div class="detalhes" id="detalhes">
+            <p>Curso 100% gratuito</p>
+        </div>
+    </section>
+    <script>
+        function mostrarDetalhes() {
+            const detalhes = document.getElementById("detalhes");
+            if (detalhes.style.display === "block") {
+                detalhes.style.display = "none";
+            } else {
+                detalhes.style.display = "block";
+            }
+        }
+    </script>
+
+<section class="recursos">
+    <h2>Recursos Recomendados</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="flores.jpg" alt="Terror psicológico">
+            <h3>Terror psicológico</h3>
+            <p>Terror psicológico é um subgênero que foca no medo e na tensão gerados pela mente humana, explorando conflitos internos, vulnerabilidades emocionais e distorções da realidade, em vez de recorrer a monstros ou violência gráfica. Elementos como dúvida, paranoia, manipulação e a dificuldade dos personagens em distinguir o real do ilusório são centrais para criar angústia e desconforto no público.  </p>
+            <a href= "https://www.google.com/search?q=o%27que+%C3%A9+terror+psicologico&sca_esv" >Saiba mais</a>
+        </div>
+        <div class="card">
+            <img src="sobre.jpg" alt="Terror sobrenatural">
+            <h3>Terror sobrenatural</h3>
+            <p> Terror sobrenatural é um subgênero do terror que explora forças e eventos que desafiam as leis da natureza, como fantasmas, demônios, maldições, possessões e casas mal-assombradas. Ele se baseia em entidades e ocorrências paranormais para gerar medo, muitas vezes utilizando elementos religiosos e o medo do desconhecido e do inexplicável.   </p>
+            <a href="https://www.google.com/search?sca_esv=a1c6a911e61942c7&rlz=">Saiba mais</a>
+        </div>
+        <div class="card">
+            <img src="slasher.jpg" alt="Slasher">
+            <h3>Slasher</h3>
+            <p> Terror slasher é um subgênero do terror focado em um assassino psicopata que persegue e mata um grupo de vítimas, geralmente jovens, usando armas cortantes. Os filmes costumam ter cenas sangrentas, um assassino mascarado, e uma sobrevivente final (a "Final Girl") que enfrenta o vilão. Exemplos notáveis incluem os vilões de Halloween, Sexta-Feira 13 e A Hora do Pesadelo.  </p>
+            <a href="https://www.google.com/search?sca_esv=a1c6a911e61942c7&rlz=">Saiba mais</a>
+        </div>
+    </div>
+</section>
+</body>
+</html>

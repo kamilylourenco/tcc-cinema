@@ -1,0 +1,220 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background: white;
+    color: rgb(0, 0, 0);
+}
+header{
+    background: rgb(240, 190, 216);
+    color: rgb(208, 113, 134);
+    padding: 20px;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+header p{
+    font-size: 1.2rem;
+}
+section{
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+h2{
+    color: rgb(208, 102, 138);
+}
+ul{
+    list-style: square;
+    margin-left: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial,sans-serif;
+}
+
+.cabecalho{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+}
+
+.container-esquerda{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.lista-menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.lista-menu li{
+    position: relative;
+}
+
+.lista-menu li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    transition: background 0.3s;
+}
+
+.lista-menu li a:houver{
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+.lista-menu li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    background-color: rgb(190, 110, 130);
+    min-width: 180px;
+}
+
+.lista-menu li ul li a{
+    padding: 10px 15px;
+    gap: 8px;
+}
+
+.lista-menu li:hover ul{
+    display: block;
+}
+
+.conteudo{
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    font-family: arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.introducao{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.introducao h1{
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: rgb(215, 165, 195);
+}
+.introducao p{
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+.introducao img{
+    width: 300px;
+    border-radius: 10px;
+}
+.beneficios{
+    margin-bottom: 40px;
+}
+.beneficios h2{
+    color: rgb(224, 184, 208);
+    margin-bottom: 15px;
+}
+.beneficios ul{
+    list-style: none;
+    padding: 0;
+}
+.beneficios li{
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+.beneficios i{
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+.recursos h2{
+    color: rgb(190, 51, 150);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgb(226, 181, 217);
+    transition: transform 0.3s;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card img{
+    width: 200px;
+    margin-bottom: 15px;
+}
+.card h3{
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+.card p{
+    font-size: 0.95em;
+    margin-bottom: 15px;
+}
+.card a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: rgb(127, 25, 86);
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+.card a:hover{
+    background: rgb(160, 53, 0);
+}
+.rodape{
+    background-color: rgb(255, 72, 0);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+.container-rodape{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.links-rodape{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.links-rodape a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.links-rodape a:hover{
+    color: rgb(255, 255, 255);
+}

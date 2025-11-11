@@ -1,0 +1,132 @@
+/* Reset geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ff6f61; /* Cor mais alegre estilo Friends */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navegação */
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffef96;
+}
+
+/* Banner */
+#banner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#banner img {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Seções de conteúdo */
+.conteudo {
+    padding: 40px;
+    text-align: center;
+}
+
+.conteudo h2 {
+    color: #ff6f61; /* Cor destacada para títulos */
+    margin-bottom: 20px;
+}
+
+/* Cards de personagens */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 250px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Galeria de imagens */
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.galeria img {
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #banner img {
+        width: 80%;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria img {
+        width: 90%;
+    }
+}

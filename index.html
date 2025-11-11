@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabeçalho com Menu e Ícones</title>
+
+    <!-- Importa os ícones do Font Awesome -->
+    <!-- Essa biblioteca possui vários ícones prontos que podem ser usados com <i class="..."> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"&gt;
+
+    <!-- Arquivo CSS externo onde você vai estilizar o cabeçalho -->
+    <link rel="stylesheet" href="estilo1.css">
+    <link rel="stylesheet" href="estilo3.css">
+</head>
+<body>
+   
+<!-- Cabeçalho da página -->
+<header class="cabecalho">
+   
+    <!-- Container do lado esquerdo: logo + menu -->
+    <div class="container-esquerda">
+
+        <!-- Logo do site -->
+        <img src="cinema.png" alt="Logo" class="logo">
+
+        <!-- Menu principal -->
+        <ul class="lista-menu">
+
+            <!-- ITEM 1: Programação -->
+            <li>
+                <!-- Ícone de código (fas = sólido, fa-code = ícone de código) -->
+                <i class="fa-solid fa-clapperboard"></i> Gêneros</a>
+
+                <!-- Submenu com linguagens -->
+                <ul>
+                    <!-- Ícone do Python (fab = marcas, fa-python = logo Python) -->
+                    <li><a href="#"><i class="fab fa-python"></i> Romance</a></li>
+                    <!-- Ícone do Java -->
+                    <li><a href="#"><i class="fab fa-java"></i> Comedia</a></li>
+                    <!-- Ícone do JavaScript -->
+                    <li><a href="#"><i class="fab fa-js-square"></i> terror</a></li>
+                </ul>
+            </li>
+
+            <!-- ITEM 2: Front-end -->
+            <li>
+                <!-- Ícone laptop/código -->
+                <i class="fa-solid fa-camera"></i> Filmes</a>
+                <ul>
+                    <li><a href="miranha.html"><i class="fab fa-html5"></i> Homem Aranha</a></li>
+                    <li><a href="enrolados.html"><i class="fab fa-css3-alt"></i> Enrolados</a></li>
+                    <li><a href="hotel.html"><i class="fab fa-react"></i> Hotel Transilvania</a></li>
+                </ul>
+            </li>
+
+            <!-- ITEM 3: Infraestrutura -->
+            <li>
+                <i class="fa-solid fa-masks-theater"></i> Seriado</a>
+                <ul>
+                    <li><a href="gg.html"><i class="fas fa-network-wired"></i> Gilmore Girls</a></li>
+                    <li><a href="amigo.html"><i class="fas fa-cloud"></i> Friends</a></li>
+                </ul>
+            </li>
+
+            <!-- ITEM 4: Business -->
+            <li>
+                <i class="fa-solid fa-glasses"></i> Séries</a>
+                <ul>
+                    <li><a href="st.html"><i class="fas fa-chart-line"></i> Stranger things</a></li>
+                    <li><a href="ob.html"><i class="fas fa-handshake"></i> outer banks</a></li>
+                </ul>
+            </li>
+
+            <!-- ITEM 5: Design & UX -->
+            <li>
+                <i class="fa-solid fa-ghost"></i> Documentários</a>
+                <ul>
+                    <li><a href="jefry.html"><i class="fas fa-paint-brush"></i> Jeffrey Dahmer</a></li>
+                    <li><a href="monstro.html"><i class="fas fa-drafting-compass"></i> Monstros</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Container do lado direito: ícones de atalho -->
+    <div class="container-direita">
+        <!-- Ícone de coração -->
+        <a href="#"><i class="fas fa-heart"></i></a>
+        <!-- Ícone de home -->
+        <a href="#"><i class="fas fa-home"></i></a>
+        <!-- Ícone de usuário -->
+        <a href="#"><i class="fas fa-user"></i></a>
+    </div>
+</header>
+<main class="conteudo">
+    <section class="introduçao">
+        <h1>Bem-vindo ao mundo do cinema</h1>
+        <p>O cinema é uma expressão artística e um meio de entretenimento popular que combina imagens em movimento e som para 
+            contar histórias, conhecido como a sétima arte. Sua origem remonta ao final do século XIX com o invenção do cinematógrafo pelos irmãos Lumière, que permitiu projetar filmes para um público. O cinema envolve várias etapas,
+             desde a criação do roteiro e cenários até as filmagens, edição e exibição, formando uma indústria complexa. </p>
+             <img src="cines.jpg" alt="imagem cinema">
+    </section>
+    <section class="beneficios">
+        <h2>Caracteristicas do cinema</h2>
+        <ul>
+            <li><i class="fa-solid fa-check"></i>Contação de histórias por meio de imagens e sons.</li>
+            <li><i class="fa-solid fa-check"></i>Estrutura narrativa com início, meio e fim (na maioria dos filmes).</li>
+            <li><i class="fa-solid fa-check"></i>Utilização de roteiro como base.</li>
+        </ul>
+    </section>
+
+  
+    <section class="recursos">
+        <h2></h2>
+        <div class="cards">
+            <div class="card">
+                <img src="romance.jpg" alt="generos">
+                <h3>Romance</h3>
+                <p>O romance é um gênero textual narrativo, extenso e complexo, escrito em prosa, que conta uma história com diversos personagens e um enredo detalhado em um determinado tempo e espaço. Ele se diferencia de outros gêneros por sua amplitude e, embora o termo remeta a histórias de amor, ele abrange uma variedade de temas, como o policial, o histórico, o psicológico, entre outros. </p>
+                <a href="index2.html">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="gentegrande.jpg" alt="generos">
+                <h3>Comedia</h3>
+                <p>  O gênero comédia busca entreter o público e provocar o riso através de situações humorísticas, diálogos espirituosos, ironia, sarcasmo e paródia. Com personagens explorando as peculiaridades humanas e, por vezes, envolvendo situações absurdas, a comédia costuma ter um desfecho positivo e otimista, abordando temas leves e sociais de forma satírica ou cotidiana. </p>
+                <a href="index3.html">Saiba mais</a>
+            </div>
+            <div class="card">
+                <img src="terror.jpg" alt="generos">
+                <h3>terror</h3>
+                <p> abrange obras literárias, cinematográficas e outras formas artísticas que têm como objetivo provocar medo, tensão e desconforto no público. Ele se diferencia do horror, que provoca choque após a exposição de algo terrível, por focar na antecipação e no suspense do que está para acontecer. O terror frequentemente usa elementos sobrenaturais ou a deturpação da realidade para criar um universo assustador e explorar temas como o medo do desconhecido e questões humanas profundas. </p>
+                <a href="index4.html">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="rodape">
+    <div class="container-rodape">
+        <p>&copy; 2025 - Todos os direitos reservados.</p>
+        <ul class="links-rodape">
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Termos de Uso</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

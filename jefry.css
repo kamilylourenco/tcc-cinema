@@ -1,0 +1,131 @@
+/* Reset geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #1a1a1a;
+    color: #eee;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navegação */
+nav a {
+    color: #eee;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff4c4c;
+}
+
+/* Banner */
+#banner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#banner img {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+/* Seções de conteúdo */
+.conteudo {
+    padding: 40px;
+    text-align: center;
+}
+
+.conteudo h2 {
+    color: #ff4c4c;
+    margin-bottom: 20px;
+}
+
+/* Cards de fatos */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    width: 250px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    color: #ff4c4c;
+}
+
+/* Galeria de imagens */
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.galeria img {
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #banner img {
+        width: 80%;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria img {
+        width: 90%;
+    }
+}
